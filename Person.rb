@@ -20,4 +20,5 @@ class Allocation < Person
 end
 
 p = Allocation.new('DTC','Nurul','huda')
-puts "Welcome #{p.firstName}#{p.secondName} from #{p.department}!"
+name = p.firstName + p.secondName
+puts "Welcome #{name} from #{p.department}!"
